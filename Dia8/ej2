@@ -1,0 +1,12 @@
+par = []
+impar = []
+while True:
+    try: 
+        num = input("ingresar un numero:")
+        if num % 2 == 0:
+            par.append(num)
+        else: 
+            impar.append(num)
+    except ValueError:
+        print("flaco te dije un numero")    
+
